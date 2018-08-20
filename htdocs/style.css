@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno|Josefin+Sans|Raleway:100');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Gloria+Hallelujah|Sacramento|Shadows+Into+Light');
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #f5f5f5;
+  color: #67727a;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.fcontainer{
+  height:200px;
+  width: 200px;
+  position: absolute;
+  float: right;
+  padding-left: 900px;
+  padding-top: 100px;
+  background-color: white;
+
+}
+.fmain{
+  text-align: center;
+}
+#maindiv {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/putnici.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#navbar ul{
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: rgba(233, 233, 233, 0.07);
+  color: rgb(70, 70, 70);
+}
+#navbar ul a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+#navbar{
+  opacity: 0.8;
+  filter: (opacity=70%);
+
+}
+
+#navbar ul li{
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  list-style-type: none;
+}
+#navbar ul li:hover{
+  background:white;
+  border-bottom: 3px rgba(201, 130, 54, 0.8901960784313725);
+  transition: all 0.5s;
+}
+#navbar h1{
+  width: 300px;
+  float: left;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#center{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+  color: black;
+  font-family: 'Covered By Your Grace', cursive;
+  display: inline-block;
+
+}
+.sono{
+  padding: 5px;
+  border: 1px solid black;
+
+  border-radius: 10px;
+}
+.mono{
+  background-color: rgba(17, 139, 109, 0.44);
+  filter: opacity(0.6);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1px;
+  font-family: 'Shadows Into Light', cursive;
+
+
+}
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(img/internet.svg);
+  background-size: 70px 60px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.content1{
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  display: block;
+}
+#para1{
+
+  height: 100px;
+  background-attachment: fixed;
+  padding: 100px ;
+  font-family: 'Italianno', cursive;
+  background-image: url(img/2.png);
+  text-align: center;
+  line-height: 1.25;
+  font-size: 40px;
+  }
+
+
+h2{
+  font-size: 250%;
+  font-weight: 700;
+  text-align: center;
+  padding: 2%
+}
+ h3{
+  font-size: 175%;
+  font-weight: 400;
+  padding: 5% 0;
+  line-height: 155%;
+
+
+}
+p{
+  line-height: 150%;
+  font-size: 130%;
+  text-indent: 20%;
+  text-align:justify;
+  margin: 20px;
+}
+img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: -4px;
+}
+section{
+
+}
+
+.one-forth{
+
+  width: 22%;
+  display: table-cell;
+  height:450px;
+
+  max-width: 100%;
+  float: left;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  filter: grayscale(0%);
+
+}
+.one-forth:hover{
+  opacity: 0.9;
+  color: rgba(189, 177, 78, 0.49);
+  cursor: pointer;
+  background: #42b078;
+  transition: all 0.5s;
+
+  filter: alpha(opacity=90);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  filter: grayscale(100%);
+}
+.one-forth h3{
+  padding-top: 360px;
+  text-align:center;
+  color: #fff;
+  overflow: hidden;
+  text-transform: uppercase;
+  position: relative;
+  background-color: transparent;
+}
+.one-forth h3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.one-forth:hover h3:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+#desc-1{
+  margin-top: 30px;
+}
+#banner{
+  display: table;
+  width: 100%;
+  padding-left: 40px;
+
+
+}
+
+#banner a{
+  text-decoration: none;
+}
+#aaa{
+  background-image: url(img/cali11.jpg);
+  background-size:cover;
+
+}
+#bbb{
+  background-image: url(img/lon33.jpg);
+  background-size: cover;
+}
+#ccc{
+  background-image: url(img/pari11.png);
+  background-size: cover;
+}
+#ddd{
+  background-image: url(img/duba33.jpg);
+  background-size: cover;
+}
+.footer{
+  max-width: 100%;
+  height: 100px;
+  background: grey;
+  padding: 20px 30px;
+  align-content: center;
+  border-radius: 10px;
+}
+.box1{
+
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  align-content: center;
+  margin: 20px;
+  padding-left: 20px;
+
+
+}
+.box1 img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.box1 h3 {
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+
+
+}
